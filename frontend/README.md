@@ -45,6 +45,101 @@ This React app serves as the **user interface** for the blogging platform.
 
     https://blogapp-write-arc.vercel.app/
 
+
+---
+
+## 📦 Packages Installed
+
+Run these inside `frontend/`:
+
+```bash
+npm create vite@latest
+cd frontend
+npm install
+
+# Routing
+npm install react-router
+
+# HTTP client
+npm install axios
+
+# State management
+npm install zustand
+
+# Styling
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+# Notifications
+npm install react-hot-toast
+```
+
+### What each package does
+
+| Package            | Purpose                     |
+| ------------------ | --------------------------- |
+| `react-router-dom` | Client-side routing         |
+| `axios`            | API requests to backend     |
+| `zustand`          | Global state management     |
+| `tailwindcss`      | Utility-first CSS framework |
+| `postcss`          | Tailwind dependency         |
+| `autoprefixer`     | CSS vendor prefixes         |
+| `react-hot-toast`  | Toast notifications         |
+
+---
+
+## ⚙️ Tailwind Setup
+
+After installing Tailwind, configure:
+
+**`tailwind.config.js`**
+
+```js
+export default {
+  content: ["./index.html", "./src/**/*.{js,jsx}"],
+  theme: { extend: {} },
+  plugins: [],
+};
+```
+
+---
+
+## 🌐 API Base Configuration (Axios Pattern)
+
+
+```js
+import axios from "axios";
+
+export const api = axios.create({
+  baseURL: import.meta.env.VITE_API_BASE_URL,
+  withCredentials: true,
+});
+```
+
+
+---
+
+### 🗂️ Routing Structure
+
+* `/login`
+* `/register`
+* `/user/profile`
+* `/author/profile`
+* `/article/:id`
+
+### 🔐 Authentication Flow
+
+* Login → httpOnly cookie set
+* `check-auth` on refresh
+* Role-based UI rendering
+
+### 🧩 Reusable Components
+
+* Navbar
+* ArticleCard
+* CommentCard
+* ProtectedRoute
+
 ---
 
 ## 📁 Folder Structure
