@@ -8,8 +8,8 @@ This project demonstrates **authentication, role-based access, CRUD operations, 
 
 ## 🚀 Live Demo
 
-* 🌐 Frontend (Deployed): **https://blogapp-write-arc.vercel.app/**
-* 🔗 Backend API (Deployed): **https://blogapp-writearc.onrender.com**
+* 🌐 Frontend (Deployed): **https://vercel.com/23eg105g40-alts-projects/capstonee_projectt11**
+* 🔗 Backend API (Deployed): **https://capstonee-project.onrender.com**
 
 ---
 
@@ -227,6 +227,6 @@ This project is licensed under the MIT License.
 
 ## 🙌 Author
 
-**Ritesh Mogilamoni**
+**Mukesh Vootkuri**
 
 If you like this project, give it a ⭐ on GitHub!
