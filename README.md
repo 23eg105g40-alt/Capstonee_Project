@@ -8,7 +8,7 @@ This project demonstrates **authentication, role-based access, CRUD operations, 
 
 ## 🚀 Live Demo
 
-* 🌐 Frontend (Deployed): **https://vercel.com/23eg105g40-alts-projects/capstonee_projectt11**
+* 🌐 Frontend (Deployed): **https://capstoneeprojectt11-gmgfvfo3q-23eg105g40-alts-projects.vercel.app/**
 * 🔗 Backend API (Deployed): **https://capstonee-project.onrender.com**
 
 ---
