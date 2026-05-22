@@ -252,7 +252,7 @@ backend
 ## 🚀 Installation
 
 ```bash
-git clone https://github.com/ritesh-mogilamoni/blogapp-WriteArc.git
+git clone https://github.com/23eg105g40-alt/Capstonee_Project.git
 cd blogapp-WriteArc/backend
 npm install
 ````
@@ -282,7 +282,7 @@ node server.js
 **Base URL (Deployed):**
 
 ```
-https://blogapp-writearc.onrender.com
+https://capstonee-project.onrender.com
 ```
 
 ---
